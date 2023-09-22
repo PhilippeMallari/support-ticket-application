@@ -1,6 +1,7 @@
 import axios from "axios";
 
-const API_URL = 'api/tickets/'
+const API_URL = '/api/tickets/'
+// ^ continuation from previous commit was the missing slash before api
 
 // Get ticket notes
 const getNotes = async (ticketId, token) => {
